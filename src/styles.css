@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary:#04c2c9;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+     --light:#f2f2f2;
+}
+
+header{
+    background-color: var(--dark);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+
+}
+body{
+    background-image: url('./assets/images/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: var(--dark);
+    color:var(--primary);
+    width: 70%;
+    margin: auto;
+}
+#NavBar{
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-top: 0%;
+    
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}   
+#Contact{
+    background-image: url('./assets/images/bg3.jpg');
+    width: 100%;
+}
+img{
+    border-radius: 50%;
+}
+#Home{
+    visibility: hidden;
+}
+.barfill{
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: whitesmoke;
+    opacity: 1;
+    padding: 0;
+}
+.fill{
+    color:var(--dark);
+    background-color: var(--primary);
+    border: solid;
+}
+.bar{
+width: 60%;
+}
+.bold{
+
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
